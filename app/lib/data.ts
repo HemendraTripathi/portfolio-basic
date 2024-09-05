@@ -1,7 +1,7 @@
 export const basicInfo = {
     name: "Hemendra Tripathi",
     designation: "Full Stack Developer",
-    shortDescription: "Crafting digital experiences,one line of code at a time.",
+    shortDescription: ["Crafting digital experiences,", "One line of code at a time."],
     about: [
         `Back in 2012, I decided to try my hand at creating custom Tumblr themes and tumbled head first into
         the rabbit hole of coding and web development. Fast-forward to today, and I’ve had the privilege of

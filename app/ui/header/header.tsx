@@ -7,7 +7,11 @@ export default function Header() {
     <div>
         <h1><a href="#">{basicInfo.name}</a></h1>
         <h4>{basicInfo.designation}</h4>
-        <p>{basicInfo.shortDescription}</p>
+        {
+            basicInfo.shortDescription.map(text => {
+                return <p>{text}</p>
+            })
+        }
         <Nav/>
     </div>
     <Contacts/>
