@@ -1,12 +1,13 @@
 import Nav from "@/app/ui/header/nav/nav";
 import Contacts from "@/app/ui/header/contact/contact";
+import { basicInfo } from "@/app/lib/data";
 
 export default function Header() {
     return <header>
     <div>
-        <h1><a href="#">Hemendra Tripathi</a></h1>
-        <h4>Full Stack Developer</h4>
-        <p>Crafting digital experiences,<br/>one line of code at a time.</p>
+        <h1><a href="#">{basicInfo.name}</a></h1>
+        <h4>{basicInfo.designation}</h4>
+        <p>{basicInfo.shortDescription}</p>
         <Nav/>
     </div>
     <Contacts/>
