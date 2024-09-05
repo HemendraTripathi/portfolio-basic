@@ -145,8 +145,7 @@ img {
 
 /* HEADER */
 header {
-  /* display: none; */
-  display: flex;
+  display: none;
   align-self: flex-start;
   flex-direction: column;
   justify-content: space-between;
