@@ -3,18 +3,14 @@ export const basicInfo = {
     designation: "Full Stack Developer",
     shortDescription: ["Crafting digital experiences,", "One line of code at a time."],
     about: [
-        `Back in 2012, I decided to try my hand at creating custom Tumblr themes and tumbled head first into
-        the rabbit hole of coding and web development. Fast-forward to today, and I’ve had the privilege of
-        building software for an advertising agency, a start-up, a
-        huge corporation, and a digital product studio.`,
-        `My main focus these days is building accessible user interfaces for our customers at
-        Klaviyo. I most enjoy building software in the sweet spot where design and
-        engineering meet — things that look good but are also built well under the hood. In my free time,
-        I've also released an online video course that covers everything you need to know
-        to build a web app with the Spotify API.`,
-        `When I’m not at the computer, I’m usually rock climbing, reading, hanging out with my wife and two
-        cats, or running around Hyrule searching for Korok seeds.`,
+        `As a full-stack developer, I've honed my skills in web development, mobile apps, and AI. Driven by a desire to make a positive impact, I've built a versatile skill set through freelance projects and continuous learning. I'm passionate about innovation and tackling complex technical challenges.`,
+        `Beyond my professional pursuits, I find joy in exploring my creative side. Whether it’s strumming a guitar or belting out a tune, music has always been a source of inspiration and relaxation. I also have a soft spot for animals, especially the furry kind. There’s nothing quite like cuddling with a kitten or puppy to brighten my day.`,
+        `As a passionate advocate for justice, I've combined my technical skills with a deep understanding of human psychology. My goal is to use technology to create a more equitable society and combat crime.`,
     ],
+    alternateAbout: [
+        `Inspired by a desire to make a positive impact, I embarked on a journey to become a full-stack developer. With a passion for innovation, I’ve honed my skills in web development, mobile app creation, and even dabbled in machine learning and artificial intelligence. From building freelance projects to mastering the intricacies of computer science, I’ve cultivated a versatile skill set that allows me to tackle a wide range of technical challenges.`,
+        `Driven by a curiosity about human behavior and a desire to fight for justice, I’ve delved into the fascinating world of psychology and criminal justice. Understanding why people think and act the way they do, coupled with a passion for making the world a better place, has fueled my desire to use my skills to combat crime and create a more equitable society.`,
+    ]
 }
 
 export const education = {
