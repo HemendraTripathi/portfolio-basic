@@ -391,8 +391,13 @@ footer strong {
   transition: all 0.15s cubic-bezier(.4,0,.2,1);
 }
 
-.resume:hover a, .resume:hover i{
+.resume:hover a{
   color: rgb(94 234 212);
+}
+.resume:hover i{
+  color: rgb(94 234 212);
+  rotate: -45deg;
+  font-size: 1.15em;
 }
 
 .section-head {

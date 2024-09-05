@@ -13,12 +13,12 @@ export default function Main() {
                     heading="experience" 
                     data={experience}
                     moreText= "View Full Résumé"
-                    moreURL="./HemendraTripathiResume.pdf"
+                    moreURL="HemendraTripathiResume.pdf"
                     />
 
                 {/* Projects Section */}
                 <Section 
-                    id="projects" 
+                    id="projects"
                     heading="projects" 
                     data={projects}
                     moreText= "View Full Project Archive"
